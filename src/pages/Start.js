@@ -1,6 +1,8 @@
 import React from 'react'
+import "./Start.css"
 
-export default function Home() {
+
+export default function Start() {
   return (
     <>
     <React.Fragment>
@@ -35,7 +37,7 @@ export default function Home() {
     <h1 class="heading">our <span>features</span> </h1>
     <div class="box-container">
         <div class="box">
-            <img class="img1" src="img1.jpg"  alt=""/>
+            <img class="img1" src="assets/images/img1.jpg"  alt=""/>
             <h3>fresh & organic</h3>
             <p>Organic food has health benefits as well as environmental benefits. Organic farming uses only natural fertilizers such as compost or manure, which helps to increase the nutritional value of the food and also improves the soil contents. </p>
             <a href="#" class="btn">read more</a>
@@ -135,12 +137,6 @@ export default function Home() {
         </div>
 
    </section>
-
-
-
-
-
-
 
 
 
